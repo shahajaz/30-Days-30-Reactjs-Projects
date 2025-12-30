@@ -11,9 +11,9 @@ const CounterApp = () => {
                 <div className="count-display">{count}</div>
 
                 <div className="button-group">
-                    <button className='increaseBtn'>Increase</button>
-                    <button className='decreaseBtn'>Decrease</button>
-                    <button className='resetBtn'>Reset</button>
+                    <button onClick={()=> setCount(count + 1)} className='increaseBtn'>Increase</button>
+                    <button  onClick={() => setCount(0)} className='resetBtn'>Reset</button>
+                    <button onClick={()=> setCount(count - 1)} className='decreaseBtn'>Decrease</button>
                 </div>
             </div>
         </div>

@@ -1,0 +1,49 @@
+.container{
+    padding: 1rem 1.5rem;
+    text-align: center;
+    border-radius: 5px;
+    background-color: #000000;
+    box-shadow: 0 10px 25px rgba(0,0,0,0.15);
+}
+.container h1{
+    color: #ffffff;
+    padding: 0.3rem;
+    border-radius: 50px;
+    background-color: #545454;
+}
+.count-display{
+    margin: 0.8rem 0;
+    font-size: 3rem;
+    font-weight: bold;
+    color: #ffffff;
+    border-radius: 50px;
+}
+
+.button-group{
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+}
+.button-group button{
+    padding: 0.5rem 1rem;
+    font-size: 1rem;
+    font-weight: bold;
+    color: #ffffff;
+    outline: none;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: all 0.2 ease-in-out;
+}
+.button-group button:hover{
+    transform: scale(1.1);
+}
+.increaseBtn{
+    background-color: #33ff00;
+}
+.resetBtn{
+    background-color: #545454;
+}
+.decreaseBtn{
+    background-color: #ff0000;
+}
