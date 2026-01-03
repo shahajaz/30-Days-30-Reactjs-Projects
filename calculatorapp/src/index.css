@@ -116,11 +116,11 @@ body{
   text-align: center;
   font-size: 1.5rem;
   font-weight: bold;
-  background-color: #d03800;
+  background-color: #310943;
   transition: background-color 0.3s ease;
   cursor: pointer;
 }
 .equalBtn:hover{
-  background-color: #ff4d00;
+  background-color: #81519e;
   transform: scale(1.01);
 }
