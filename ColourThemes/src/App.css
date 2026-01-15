@@ -1,0 +1,57 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, sans-serif;
+}
+.container{
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: background-color 0.4s ease;
+}
+.card{
+  background: #ffffff;
+  padding: 30px;
+  border-radius: 10px;
+  text-align: center;
+  width: 320px;
+  box-shadow: 0 8px 25px rgba(0, 0, 0, 0.2);
+}
+.card h1{
+  font-size: 18px;
+  font-weight: bold;
+  margin-bottom: 15px;
+  padding: 5px 10px;
+  border-radius: 5px;
+  color: #fff;
+  background-color: #333;
+}
+.color-code {
+  font-size: 20px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+.buttons{
+  display: flex;
+  gap: 10px;
+  justify-content: center;
+}
+button{
+  padding: 10px 16px;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+  font-size: 14px;
+  background-color: #121010ee;
+  color: #fff;
+}
+
+button.copy{
+  background-color: #0099ff;
+}
+
+button:hover{
+  opacity: 0.9;
+}
