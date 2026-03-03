@@ -1,8 +1,7 @@
 function Navbar({ darkMode, setDarkMode }) {
   return (
     <nav className="navbar">
-      {/* Left - Logo */}
-      <div className="logo">TechGuy360</div>
+      <div className="logo">Code <span>360</span></div>
 
       {/* Center - Menu */}
       <ul className="nav-links">
@@ -13,13 +12,10 @@ function Navbar({ darkMode, setDarkMode }) {
         <li>Contact</li>
       </ul>
 
-      {/* Right - Actions */}
       <div className="actions">
-        <button
-          className="toggle-btn"
-          onClick={() => setDarkMode(!darkMode)}
-        >
-          {darkMode ? "☀ Light" : "🌙 Dark"}
+        <button className="toggle-btn" onClick={() => setDarkMode(!darkMode)}>
+
+          {darkMode ? <i className="fa-solid fa-moon"></i> : <i className="fa-solid fa-sun"></i>}
         </button>
 
         <button className="login-btn">Login</button>

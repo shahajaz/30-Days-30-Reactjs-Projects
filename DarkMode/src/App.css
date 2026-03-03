@@ -1,0 +1,120 @@
+.app{
+    min-height: 100vh;
+    transition: all 0.3s ease;
+}
+
+.light{
+    background-color: #ffffff;
+    color: #000;
+}
+
+.dark{
+    background-color: #121212;
+    color: #ffffff;
+}
+
+.navbar{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 15px 40px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.3);
+}
+.nav-links{
+    display: flex;
+    gap: 25px;
+    list-style: none;
+}
+
+.nav-links li{
+    font-size: 20px;
+    font-weight: 700;
+    cursor: pointer;
+}
+.nav-links li:hover{
+    color: #007bff;
+    border-radius: 3px;
+    border-bottom: 2px solid #007bff;
+}
+.logo{
+    font-size: 25px;
+    font-weight: bold;
+}
+.logo span{
+    padding: 8px;
+    border-radius: 8px;
+    color: #ff2200;
+    background-color: #000;
+}
+.logo span:hover{
+    color: #007bff;
+}
+
+.actions {
+    display: flex;
+    gap: 15px;
+}
+.toggle-btn{
+    padding: 8px;
+    border: none;
+    cursor: pointer;
+    border-radius: 50px;
+}
+
+.login-btn{
+    border: none;
+    outline: none;
+    padding: 8px 15px;
+    font-size: 16px;
+    border-radius: 8px;
+    background-color: #007bff;
+    color: #ffffff;
+    cursor: pointer;
+}
+.login-btn:hover{
+    background-color: #ff2200;
+}
+
+/* Hero */
+.hero{
+    text-align: left;
+    padding: 100px 12%;
+}
+.hero h1{
+    font-size: 48px;
+}
+.hero p{
+    font-size: 18px;
+    margin: 20px 0;
+}
+.heroBtn{
+    display: flex;
+    text-align: center;
+    gap: 32px;
+}
+.get-btn{
+    border: none;
+    outline: none;
+    padding: 10px 15px;
+    font-size: 16px;
+    border-radius: 8px;
+    background-color: #007bff;
+    color: #ffffff;
+    cursor: pointer;
+}
+.get-btn:hover{
+    background-color: #ff2200;
+}
+.explore-btn{
+    border: none;
+    outline: none;
+    padding: 10px 15px;
+    font-size: 16px;
+    border-radius: 8px;
+    background-color: #ff2200;
+    color: #ffffff;
+    cursor: pointer;
+}
+.explore-btn:hover{
+    background-color: #007bff;
+}

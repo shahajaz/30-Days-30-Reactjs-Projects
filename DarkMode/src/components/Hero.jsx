@@ -6,7 +6,11 @@ function Hero() {
         Learn React step-by-step with real projects on
         <strong> Tech Guy 360</strong>
       </p>
-      <button className="hero-btn">Get Started</button>
+      
+      <div className="heroBtn">
+        <button className="get-btn">Get Started</button>
+        <button className="explore-btn">Explore More!</button>
+      </div>
     </section>
   );
 }
